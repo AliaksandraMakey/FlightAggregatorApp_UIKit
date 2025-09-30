@@ -1,0 +1,121 @@
+/* 
+  Localizable.strings (English)
+  FlightAggregatorApp
+*/
+
+// MARK: - General
+"app.title" = "Flight Aggregator";
+"ok" = "OK";
+"cancel" = "Cancel";
+"error" = "Error";
+"success" = "Success";
+"loading" = "Loading...";
+"done" = "Done";
+"clear" = "Clear";
+"apply" = "Apply";
+"save" = "Save";
+"close" = "Close";
+
+// MARK: - Flight Status
+"flight.status.scheduled" = "Scheduled";
+"flight.status.delayed" = "Delayed";
+"flight.status.boarding" = "Boarding";
+"flight.status.departed" = "Departed";
+"flight.status.arrived" = "Arrived";
+"flight.status.cancelled" = "Cancelled";
+"flight.status.unknown" = "Unknown";
+
+// MARK: - Navigation
+"tab.flights" = "Flights";
+"tab.settings" = "Settings";
+"navigation.flights" = "Flights";
+"navigation.filters" = "Filters";
+"navigation.details" = "Flight Details";
+"navigation.settings" = "Settings";
+
+// MARK: - Flight List
+"flights.title" = "Flights";
+"flights.loading.placeholder" = "Loading airport data...";
+"flights.empty.title" = "No flights found";
+"flights.empty.message" = "Try adjusting your search criteria";
+"flights.load.more" = "Load more flights";
+"flights.remaining.count" = "%d flights remaining";
+
+// MARK: - Flight Details
+"flight.details.title" = "Flight Details";
+"flight.details.price" = "Price";
+"flight.details.airline" = "Airline";
+"flight.details.info" = "Flight Info";
+"flight.details.direct" = "Direct";
+"flight.details.stops" = "%d stop(s)";
+"flight.details.duration" = "Duration";
+
+// MARK: - Flight Filters
+"filters.title" = "Filters";
+"filters.from.placeholder" = "From (city name)";
+"filters.to.placeholder" = "To (city name)";
+"filters.departure.placeholder" = "Departure date";
+"filters.return.placeholder" = "Return date (optional)";
+"filters.apply" = "Apply Filters";
+"filters.clear" = "Clear Filters";
+"filters.validation.error" = "Please fill in all required fields";
+
+// MARK: - Dynamic Errors
+"cities.loading" = "City data is still loading. Please wait...";
+"origin.not.found" = "Origin city '%@' not found. Try in English or choose from popular cities.";
+"destination.not.found" = "Destination city '%@' not found. Try in English or choose from popular cities.";
+"date.past.error" = "You cannot select a past date. Choose today or later.";
+"date.return.before.departure" = "Return date cannot be earlier than departure date.";
+
+// MARK: - Settings
+"settings.title" = "Settings";
+"settings.language" = "Language";
+"settings.language.english" = "English";
+"settings.language.russian" = "Русский";
+"settings.about" = "About";
+"settings.version" = "Version";
+"settings.feedback" = "Feedback";
+"settings.feedback.choose" = "Choose a contact method";
+"settings.feedback.email" = "Send Email";
+"settings.feedback.rate" = "Rate in App Store";
+"settings.rate" = "Rate App";
+"settings.rate.message" = "Opening the App Store...";
+"settings.currency" = "Currency";
+"settings.currency.rub" = "Russian Ruble (₽)";
+"settings.currency.usd" = "US Dollar ($)";
+"settings.currency.eur" = "Euro (€)";
+"settings.notifications" = "Notifications";
+"settings.notifications.enabled" = "Enable notifications";
+"settings.about" = "About";
+"settings.feedback" = "Send Feedback";
+"settings.rate" = "Rate App";
+"settings.version" = "Version";
+
+// MARK: - Errors
+"error.network.title" = "Network Error";
+"error.network.message" = "Please check your internet connection and try again";
+"error.data.title" = "Data Error";
+"error.data.message" = "Unable to load flight data";
+"error.validation.title" = "Validation Error";
+"error.validation.message" = "Please check your input";
+
+// MARK: - Flight Generation
+"flights.direct" = "Direct flight";
+"flights.one.stop" = "1 stop";
+"flights.multiple.stops" = "%d stops";
+"airline.unknown" = "Unknown Airline";
+
+// MARK: - Date Formatting
+"date.today" = "Today";
+"date.tomorrow" = "Tomorrow";
+"date.yesterday" = "Yesterday";
+
+// MARK: - Time
+"time.hours.short" = "h";
+"time.minutes.short" = "m";
+"time.duration.format" = "%@ %@";
+
+// MARK: - Success Messages
+"filters.applied.success" = "Filters applied successfully";
+"language.changed.success" = "Language changed successfully";
+"settings.saved.success" = "Settings saved successfully";

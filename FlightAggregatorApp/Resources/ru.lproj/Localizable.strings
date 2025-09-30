@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings (Russian)
+  FlightAggregatorApp
+*/
+
+// MARK: - General
+"app.title" = "Агрегатор Рейсов";
+"ok" = "ОК";
+"cancel" = "Отмена";
+"error" = "Ошибка";
+"success" = "Успешно";
+"loading" = "Загрузка...";
+"done" = "Готово";
+"clear" = "Очистить";
+"apply" = "Применить";
+"save" = "Сохранить";
+"close" = "Закрыть";
+
+// MARK: - Flight Status
+"flight.status.scheduled" = "По расписанию";
+"flight.status.delayed" = "Задержка";
+"flight.status.boarding" = "Посадка";
+"flight.status.departed" = "Отбыл";
+"flight.status.arrived" = "Прибыл";
+"flight.status.cancelled" = "Отменен";
+"flight.status.unknown" = "Неизвестно";
+
+// MARK: - Navigation
+"tab.flights" = "Рейсы";
+"tab.settings" = "Настройки";
+"navigation.flights" = "Рейсы";
+"navigation.filters" = "Фильтры";
+"navigation.details" = "Детали рейса";
+"navigation.settings" = "Настройки";
+
+// MARK: - Flight List
+"flights.title" = "Рейсы";
+"flights.loading.placeholder" = "Ожидание загрузки данных аэропортов...";
+"flights.empty.title" = "Рейсы не найдены";
+"flights.empty.message" = "Попробуйте изменить критерии поиска";
+"flights.load.more" = "Загрузить больше рейсов";
+"flights.remaining.count" = "Осталось рейсов: %d";
+
+// MARK: - Flight Details
+"flight.details.title" = "Детали рейса";
+"flight.details.price" = "Цена";
+"flight.details.airline" = "Авиакомпания";
+"flight.details.info" = "Информация о рейсе";
+"flight.details.direct" = "Прямой";
+"flight.details.stops" = "%d пересадок";
+"flight.details.duration" = "Длительность";
+
+// MARK: - Flight Filters
+"filters.title" = "Фильтры";
+"filters.from.placeholder" = "Откуда (название города)";
+"filters.to.placeholder" = "Куда (название города)";
+"filters.departure.placeholder" = "Дата отправления";
+"filters.return.placeholder" = "Дата возвращения (необязательно)";
+"filters.apply" = "Применить фильтры";
+"filters.clear" = "Очистить фильтры";
+"filters.validation.error" = "Пожалуйста, заполните все обязательные поля";
+
+// MARK: - Dynamic Errors
+"cities.loading" = "Данные городов еще загружаются. Пожалуйста, подождите...";
+"origin.not.found" = "Город отправления '%@' не найден. Попробуйте ввести на английском или выберите из популярных городов.";
+"destination.not.found" = "Город назначения '%@' не найден. Попробуйте ввести на английском или выберите из популярных городов.";
+"date.past.error" = "Нельзя выбрать дату в прошлом. Выберите сегодняшнюю дату или позже.";
+"date.return.before.departure" = "Дата возврата не может быть раньше даты вылета.";
+
+// MARK: - Settings
+"settings.title" = "Настройки";
+"settings.language" = "Язык";
+"settings.language.english" = "English";
+"settings.language.russian" = "Русский";
+"settings.about" = "О приложении";
+"settings.version" = "Версия";
+"settings.feedback" = "Обратная связь";
+"settings.feedback.choose" = "Выберите способ связи";
+"settings.feedback.email" = "Отправить email";
+"settings.feedback.rate" = "Оценить в App Store";
+"settings.rate" = "Оценить приложение";
+"settings.rate.message" = "Переход в App Store...";
+
+// MARK: - Flight Generation
+"flights.direct" = "Прямой рейс";
+"flights.one.stop" = "1 пересадка";
+"flights.multiple.stops" = "%d пересадки";
+"airline.unknown" = "Неизвестная авиакомпания";
